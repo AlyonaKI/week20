@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <label for="category">Кого или что будем искать?</label><br />
+    <select id="category">
+      <option value="people">Людей</option>
+      <option value="planets">Планеты</option>
+      <option value="films">Фильмы</option>
+    </select>
+    <input type="number" id="idInput" placeholder="Введите ID от 1 до 10" />
+    <button id="fetchBtn">Вперёд!</button>
+    <p id="loading"></p>
+    <p id="result"></p>
+    <p id="error"></p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
